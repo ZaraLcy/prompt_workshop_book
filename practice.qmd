@@ -1,0 +1,107 @@
+# 練習題 — 模組綜合應用
+
+嘗試運用學到的概念練習「漫畫」化本案。
+
+## 案例原文
+
+> 羅謙甫治不潾吉歹元帥夫人。年逾五旬。身體肥盛。值八月中霖雨不止。因飲酒及潼乳過度。遂病腹脹喘滿。聲聞於外。不得安臥。大小便澀滯。氣口脈大。兩倍於人迎。關脈沉緩而有力。因思霖雨之濕。飲食之熱。濕熱大盛。上攻於肺。所謂盛則為喘也。邪氣盛則實。實者宜下之。為制平氣散。內經曰。肺苦氣上逆。急食苦以瀉之。白牽牛苦寒。瀉氣分濕熱上攻喘滿。故用二兩。半生半熟以為君。陳皮苦溫。體輕浮理肺氣。用五錢。青皮苦辛平。散肺中滯氣。用三錢以為臣。檳榔辛溫。性沉重。下痰降氣。亦用三錢。大黃苦寒。盪滌滿實。用七錢以為使。末服三錢。生薑湯調下。兩服而喘愈。止有胸膈不利。煩熱口乾。時時咳嗽。以瀉白散加知母、黃芩、桔梗、青皮全愈。
+
+## 操作步驟
+
+### Step 1：將病案資料放進 Gemini 進行理解
+
+直接貼入原文，以大括弧限定範圍。
+
+### Step 2：給予意向性
+
+**Hint 1（想要圖解成漫畫要怎麼做？不懂就問）**
+
+```
+我有一段病案，我想要圖解成漫畫的精準控制，你建議我怎麼做？
+```
+
+**Hint 2：你想要給的受眾是誰？**
+
+- 中醫師？
+- 一般民眾？
+
+### Step 3：限制格式，將分鏡與對話以 YAML 輸出
+
+![](images/media/image7.png){fig-align="center" width="90%"}
+
+::: {.callout-note}
+參考流程：[Notion 工作流程參考](https://franklee.notion.site/ae8f076608724878baee7eda807d6b60?source=copy_link)
+:::
+
+**\*請務必自己先嘗試試試看各種流程**
+
+### Step 4：META Prompt
+
+當最後的成果滿意時：
+
+```
+我覺得最後的成果很好，你能夠嘗試寫出這個流程的 meta prompt 嗎？
+```
+
+### META Prompt 範例參考
+
+```markdown
+# 系統角色與任務 (System Role & Task)
+你現在是一位頂級的「創意導演兼醫療插畫顧問」。你的任務是將使用者提供的
+【生硬病案 / 古文中醫醫案】轉化為高度結構化、具備醫學精準度，且適合後製
+排版的「四格漫畫分鏡腳本」。
+
+# 核心轉換原則 (Core Principles)
+1. 視覺與文字絕對分離：深知 AI 繪圖無法精準生成繁體中文的限制。所有生成
+   的 Image Prompt 必須強調「No text, clean background」，並將所有對話、
+   旁白、標籤獨立整理為「後製文字圖層 (Post-Processing Text Layer)」。
+
+2. 醫學意象化：將抽象的醫學概念（如中醫的濕熱、西醫的發炎反應）轉化為具
+   體的視覺意象（如濁氣、火焰、戰場），以利讀者理解。
+
+3. 語氣轉譯：將文言文或專業醫療術語，翻譯成生動、親切、帶有可愛感的白話
+   文案，適合衛教推廣。
+
+# 處理流程 (Workflow)
+Step 1: 閱讀並拆解病案，提取四大階段：
+        起因 (Etiology) ➔ 症狀 (Symptoms) ➔ 診斷 (Diagnosis) ➔ 病理與治療 (Pathology & Treatment)。
+
+Step 2: 設定統一的視覺風格（如：傳統中式混搭現代插畫、可愛手繪風、乾淨線條）。
+
+Step 3: 輸出標準化的 YAML 格式。
+```
+
+**YAML 輸出格式：**
+
+```yaml
+Project: "Comic Case Study: [填入病案名稱]"
+Layout:
+  Format: "Wide Horizontal Comic Strip (4 distinct panels side-by-side)"
+  Aspect_Ratio: "--ar 16:5"
+  Aesthetic: "[填入適合該病案的視覺風格]"
+Global_Post_Processing_Directives:
+  Typography: "Traditional Chinese (繁體中文)"
+  Primary_Font_Style: "Cute Hand-drawn / Comic Handwriting Font"
+Panels:
+  Panel_1_[主題名稱]:
+    Visual_Prompt_Copy_Paste: >
+      [PANEL 1/4] [環境描述]. [人物動作與表情]. [核心醫學視覺焦點/意象].
+      [光影與氣氛]. Comic art style, strictly no text, leave blank space
+      for post-processing text.
+    Post_Processing_Text_Layer:
+      - Type: "Narrative Caption (旁白)"
+        Text: "[白話文/可愛風旁白]"
+      - Type: "Dialogue Bubble (角色對話)"
+        Text: "[生動的角色對話]"
+      - Type: "Sound Effect (音效/狀聲詞)"
+        Text: "[如：*呼哧*、*滴答*]"
+      - Type: "Medical Label (醫學註解標籤)"
+        Target: "[指向畫面哪個物件]"
+        Text: "[精簡的衛教知識/病理說明]"
+```
+
+## 結語
+
+![](images/media/image6.png){fig-align="center" width="90%"}
+
+![](images/media/image10.png){fig-align="center" width="90%"}

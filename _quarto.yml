@@ -1,0 +1,26 @@
+project:
+  type: book
+
+book:
+  title: "結構化病機思考"
+  subtitle: "從病案到 AI 視覺化的系統性訓練"
+  author: "Lee Chuan-Yao"
+  date: "2026-03-26"
+  chapters:
+    - index.qmd
+    - module1.qmd
+    - module2.qmd
+    - module3.qmd
+    - module4.qmd
+    - practice.qmd
+    - references.qmd
+
+format:
+  html:
+    theme: cosmo
+    lang: zh
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    code-block-bg: true
+    highlight-style: github

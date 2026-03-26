@@ -1,0 +1,44 @@
+# 附錄與參考資料
+
+## 附錄 1：影像備份索取問卷填寫
+
+[演講的錄影備份，如果想要索取的同學請填一下下方留言區的問卷，感謝大家～]{.mark}
+
+索取問卷填寫：[https://forms.gle/dkSmQEwoc6qpK1wM9](https://forms.gle/dkSmQEwoc6qpK1wM9)
+
+## 參考資料
+
+### 1. 廢話少說，用畫說 — Dan Roam
+
+[廢話少說，用畫說](https://www.books.com.tw/products/0010999820)
+
+這本書強調圖像式思考，幫助將複雜的問題拆解成簡單的六個象限（Who/What、How Much、Where、When、How、Why），這是將資訊轉化為 Infographic（Module 1）的基礎。
+
+### 2. 金字塔原理 — Barbara Minto
+
+[金字塔原理](https://www.books.com.tw/products/0010369735)
+
+關於金字塔原理（Minto Pyramid Principle）的書籍，教導如何結構化地呈現論點，這與在 Module 2 中使用 Mermaid 拆解複雜病機邏輯圖的訓練目標一致。
+
+### 3. Agentic AI — DeepLearning.AI 線上課
+
+[Agentic AI 課程 — Chart Generation Workflow](https://learn.deeplearning.ai/courses/agentic-ai/lesson/moivym/chart-generation-workflow)
+
+DeepLearning.AI 的這堂 **Agentic AI** 課程，完美對應了講義中提出的「**Multiagent 的時代**」概念。
+
+其中一個核心概念是「**反射（Reflection）設計模式**」，這與 Module 3 和 Module 4 中教導的結構化控制技巧高度相關：
+
+- **定義：** 反射模式是指一個 AI 代理在產生初步結果後，會**自我審查並改進**其輸出。
+- **關聯性：** 透過 YAML 和 META-Prompt 等結構化框架，人類事實上是提供了一個標準化的「**反射與評估機制**」給 AI 代理，確保其輸出能持續符合對精準度、風格和邏輯的要求。
+
+這門課程為學員提供了將「結構化思維」落實到實際 **Agentic 工作流程**的技術藍圖。
+
+## 版權宣告
+
+課程內容採 **CC BY-NC-ND 4.0 授權**（不含 AI 生成圖像）；
+
+圖像由 Google Gemini（Imagen 2）生成，依 Google 服務條款使用。
+
+投影片技術框架：frontend-slides，MIT License © 2025 Zara Zhang
+
+[https://github.com/zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides)
