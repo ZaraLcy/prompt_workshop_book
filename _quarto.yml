@@ -4,7 +4,7 @@ project:
 book:
   title: "結構化病機思考"
   subtitle: "從病案到 AI 視覺化的系統性訓練"
-  author: "Lee Chuan-Yao"
+  author: "Frank Lee"
   date: "2026-03-26"
   chapters:
     - index.qmd
