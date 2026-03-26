@@ -97,6 +97,8 @@ acupuncture_point:
 
 勾選：生成圖片，模型：思考型
 
+注意範例圖片為穴位標示有誤版本，出圖仍要檢查。
+
 ![](images/media/image8.png){fig-align="center" width="90%"}
 
 ## 步驟 4：如何生成 META-Prompt
