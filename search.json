@@ -1,0 +1,322 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "結構化病機思考",
+    "section": "",
+    "text": "引子與學習地圖",
+    "crumbs": [
+      "引子與學習地圖"
+    ]
+  },
+  {
+    "objectID": "index.html#為什麼要結構化病機思考",
+    "href": "index.html#為什麼要結構化病機思考",
+    "title": "結構化病機思考",
+    "section": "為什麼要結構化病機思考？",
+    "text": "為什麼要結構化病機思考？\n除了 AI，還有 AI 以外的東西，那就是人類的思維模式：\n\n文字與圖像，用於敘事紀錄與溝通\n\n結構化病機思考的目的，根據文件內容，主要有兩點：\n\n人類的思維模式：除了應用於 AI，結構化思考也針對人類的思維模式進行優化。\n敘事紀錄與溝通：利用文字與圖像（例如：圖解步驟、邏輯流程圖、醫學插畫等）來進行更精準的敘事紀錄和溝通。\n\n\n結構化病機思考是為了建立一套清晰、系統化的方法，能同時協助人類（整理思維、提高診斷準確性）與 AI（作為提示詞精準控制的基礎），並將複雜的醫學知識透過「文字與圖像」的方式高效傳達與紀錄。",
+    "crumbs": [
+      "引子與學習地圖"
+    ]
+  },
+  {
+    "objectID": "index.html#今日的學習大綱",
+    "href": "index.html#今日的學習大綱",
+    "title": "結構化病機思考",
+    "section": "今日的學習大綱",
+    "text": "今日的學習大綱\n\n\n\n\n\n\n\n\n模組\n主題\n核心技能\n\n\n\n\nModule 1\n古今醫案按的圖解步驟\nInfographic 視覺化\n\n\nModule 2\n病因病機的邏輯實現\nMermaid 流程圖\n\n\nModule 3\n多重文字精準控制的技巧\nYAML 格式調整庫\n\n\nModule 4\n製作醫學解剖插畫圖片\nMETA-Prompt\n\n\n\n\nModule 1 — 古今醫案按的圖解步驟\n學習將中醫古今醫案的複雜文字內容，轉化為易於理解的資訊圖表（Infographic）進行視覺化呈現。\n\n\nModule 2 — 病因病機的邏輯實現\n練習以病因病機的角度拆解醫案，並將其邏輯關係透過彩色 Mermaid 語法輸出為視覺化的流程圖。\n\n\nModule 3 — 多重文字精準控制的技巧\n學習觀察和分析圖片的排版、色彩與形式等要素，並將這些控制要素結構化儲存為 YAML 格式的調整庫。\n\n\nModule 4 — 製作醫學解剖插畫圖片\n探索 META-Prompt 的概念，用以穩定地生成具有專業風格和解剖精確度的醫學插畫圖片。",
+    "crumbs": [
+      "引子與學習地圖"
+    ]
+  },
+  {
+    "objectID": "index.html#今日學習地圖multiagent-的時代",
+    "href": "index.html#今日學習地圖multiagent-的時代",
+    "title": "結構化病機思考",
+    "section": "今日學習地圖（Multiagent 的時代）",
+    "text": "今日學習地圖（Multiagent 的時代）\n\n\n\n\n\n結構化病機思考是人類成為 Multiagent 系統中最高層次協調者（The Orchestrator）的必備技能。\n整份講義教授的 YAML 格式控制、Mermaid 邏輯流程圖、以及 META-Prompt 概念，都是建立一套清晰、系統化的方法，用來精準控制不同的 AI 代理，確保輸出結果能一致、穩定且準確地符合專業醫療意圖。\n\nHuman intention in, meaningful context out.",
+    "crumbs": [
+      "引子與學習地圖"
+    ]
+  },
+  {
+    "objectID": "index.html#版權宣告",
+    "href": "index.html#版權宣告",
+    "title": "結構化病機思考",
+    "section": "版權宣告",
+    "text": "版權宣告\n課程內容採 CC BY-NC-ND 4.0 授權（不含 AI 生成圖像）；圖像由 Google Gemini（Imagen 2）生成，依 Google 服務條款使用。\n投影片技術框架：frontend-slides，MIT License © 2025 Zara Zhang",
+    "crumbs": [
+      "引子與學習地圖"
+    ]
+  },
+  {
+    "objectID": "module1.html",
+    "href": "module1.html",
+    "title": "1  Module 1 — 古今醫案按的圖解步驟",
+    "section": "",
+    "text": "1.1 演練案例：脾胃虛濕熱下注型帶下",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Module 1 — 古今醫案按的圖解步驟</span>"
+    ]
+  },
+  {
+    "objectID": "module1.html#演練案例脾胃虛濕熱下注型帶下",
+    "href": "module1.html#演練案例脾胃虛濕熱下注型帶下",
+    "title": "1  Module 1 — 古今醫案按的圖解步驟",
+    "section": "",
+    "text": "一婦人吞酸胸滿。食少便泄。月經不調。服清氣化痰丸。兩膝漸腫。寒熱往來。帶下黃白。面黃體倦。此脾胃虛濕熱下注。\n用補中益氣倍參、朮。加茯苓、半夏、炮姜而愈。\n若因怒。發熱少食。或兩腿赤腫。或指縫常濕。用六君加柴胡、升麻。及補中益氣。",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Module 1 — 古今醫案按的圖解步驟</span>"
+    ]
+  },
+  {
+    "objectID": "module1.html#操作順序",
+    "href": "module1.html#操作順序",
+    "title": "1  Module 1 — 古今醫案按的圖解步驟",
+    "section": "1.2 操作順序",
+    "text": "1.2 操作順序\n\n1.2.1 步驟 1：將原文放進 Gemini 進行理解\n\n\n\n\n\n\n提示小技巧 1：大括弧限定文件範圍\n\n\n\n{ 文件資料 }\n用大括弧可以降低 LLM 在前後文的理解辨識錯誤，讓模型知道文件的範圍。\n\n\n\n\n\n\n\n\n提示小技巧 2：調整 System Prompt\n\n\n\n請你每一次對話前，都根據我給你的任務，\n先思考該扮演什麼角色可以最恰當的協助我。\n設定範例：\n## 角色設定\n在回應前，判斷最適合的專業角色（工程師、設計師、\n策略顧問、教師、編輯等），並在開頭標注：\n**[角色]**：\n\n## 回應原則\n- 直接切入重點，不重複使用者說過的話\n- 有多種做法時，給出明確建議而非列出所有選項\n- 不確定時說不確定，不要編造\n\n## 反思\n完成任務後，附上一段簡短反思：\n`★ Insight ────────────────────────────────`\n[針對這次任務，2-3 個值得注意的觀點或取捨]\n`──────────────────────────────────────────`\n\n\n\n\n\n\n\n\n\n1.2.2 步驟 2：給予意向性\n\nHuman intention in, meaningful context out.\n\n你想要語言模型從什麼樣的層面理解？就必須加入你希望他切入的觀點。\nPrompt 範例：\n{ 脾胃虛濕熱下注型帶下\n\n一婦人吞酸胸滿。食少便泄。月經不調。服清氣化痰丸。\n兩膝漸腫。寒熱往來。帶下黃白。面黃體倦。此脾胃虛濕熱下注。\n\n用補中益氣倍參、朮。加茯苓、半夏、炮姜而愈。\n\n若因怒。發熱少食。或兩腿赤腫。或指縫常濕。\n用六君加柴胡、升麻。及補中益氣。\n\n}\n\n請你以臨床實用診斷觀點，拆解三個重點\n\n\n1.2.3 產出範例\n針對這段中醫古籍醫案，以「臨床實用診斷」的角度拆解，這不僅僅是一個「白帶（帶下）」的案例，更是一場關於「虛實辨證」與「升降氣機」的深度博弈。\n\n1.2.3.1 重點一：誤治的代價——辨清「真熱」與「中焦虛寒」\n醫案開頭提到的「吞酸胸滿、便泄」，初看似乎有痰熱或食積，原醫者用了「清氣化痰丸」。這在臨床上是極大的陷阱。\n\n診斷陷阱： 吞酸不一定是火，也可能是脾胃虛寒導致的「中陽不振」。清氣化痰丸藥性苦寒，對於「食少便泄」的脾虛患者來說，無異於雪上加霜。\n臨床反饋： 服藥後「兩膝漸腫、寒熱往來」，代表苦寒藥傷了脾陽，導致濕邪不化，反而下注關節。\n關鍵點： 臨床見到熱象（黃帶、吞酸），必須先確認脾胃的「運化能力」。 若有便泄、體倦，應「守中」而非「攻邪」。\n\n\n\n1.2.3.2 重點二：核心機制——「升清則下流自止」\n\n\n\n藥物\n用意\n\n\n\n\n倍參、朮\n極力恢復中焦的「泵」功能，把氣提起來\n\n\n炮薑\n溫性化散下焦的寒濕，守住中陽，防止參、朮過於滋膩\n\n\n茯苓、半夏\n化濕和胃降逆\n\n\n\n關鍵點： 治療下焦濕熱，不一定要用利尿苦寒藥；透過「升提中氣」讓水液各歸其位，才是治本。\n\n\n1.2.3.3 重點三：變證診斷——情緒與經絡的「延伸連鎖」\n\n\n\n\n\n\n\n\n\n觸發因素\n臨床表現\n診斷思路\n建議方案\n\n\n\n\n情志（怒）\n發熱、兩腿赤腫\n肝木克脾土，肝經濕熱下滲\n補中益氣 + 舒肝（柴胡、升麻）\n\n\n濕氣偏盛\n指縫常濕\n脾主四肢，濕邪透過經絡末梢外溢\n加強燥濕健脾（六君子湯）\n\n\n\n\n\n\n1.2.4 步驟 3：進行 Infographic 化\n{ 內容 }\n\n請你將這段內容進行 infographic 圖解，專業可愛風格，\n以水豚君教授小白豬助理為輔助\n\n\n\n\n\n\n注记Prompt 說明\n\n\n\n\n風格會決定整張圖解的整體樣式，如果要讓整個風格統一，必須在指令時就要建立\n如果要固定某些角色在圖解內，就要加入 Prompt\n圖片是預覽，要完整的圖片解析度，要下載\n\n\n\n練習步驟：\n\n先以剛剛的對話窗，直接輸入\n開新的對話窗，重新輸入內容，比較差異\n\n\n\n1.2.5 範例展示",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Module 1 — 古今醫案按的圖解步驟</span>"
+    ]
+  },
+  {
+    "objectID": "module2.html",
+    "href": "module2.html",
+    "title": "2  Module 2 — 病因病機的邏輯實現",
+    "section": "",
+    "text": "2.1 演練：將古今醫案按病因病機化\n成果目標：",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 2 — 病因病機的邏輯實現</span>"
+    ]
+  },
+  {
+    "objectID": "module2.html#演練將古今醫案按病因病機化",
+    "href": "module2.html#演練將古今醫案按病因病機化",
+    "title": "2  Module 2 — 病因病機的邏輯實現",
+    "section": "",
+    "text": "脾胃虛濕熱下注型帶下\n一婦人吞酸胸滿。食少便泄。月經不調。服清氣化痰丸。兩膝漸腫。寒熱往來。帶下黃白。面黃體倦。此脾胃虛濕熱下注。\n用補中益氣倍參、朮。加茯苓、半夏、炮姜而愈。\n若因怒。發熱少食。或兩腿赤腫。或指縫常濕。用六君加柴胡、升麻。及補中益氣。",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 2 — 病因病機的邏輯實現</span>"
+    ]
+  },
+  {
+    "objectID": "module2.html#操作順序",
+    "href": "module2.html#操作順序",
+    "title": "2  Module 2 — 病因病機的邏輯實現",
+    "section": "2.2 操作順序",
+    "text": "2.2 操作順序\n\n2.2.1 步驟 1：Prompt 練習 1 — 病因病機拆解\n請以病因病機的角度來拆解此案\n\n{脾胃虛濕熱下注型帶下\n\n一婦人吞酸胸滿。食少便泄。月經不調。服清氣化痰丸。\n兩膝漸腫。寒熱往來。帶下黃白。面黃體倦。此脾胃虛濕熱下注。\n\n用補中益氣倍參、朮。加茯苓、半夏、炮姜而愈。\n\n若因怒。發熱少食。或兩腿赤腫。或指縫常濕。用六君加柴胡、升麻。及補中益氣。\n\n}\n\n\n2.2.2 步驟 2：Prompt 練習 2 — 以彩色 Mermaid 語法輸出\n請以彩色 mermaid 語法輸出\n\n\n2.2.3 成果範例\n\n\n\n\n\nflowchart TD\n\n%% ========== Nodes ==========\nA[脾胃素虛&lt;br/&gt;（本虛）] --&gt; B[運化失職&lt;br/&gt;水穀不化]\nB --&gt; C[濕濁內生&lt;br/&gt;（痰濕中阻）]\nC --&gt; D1[胃失和降&lt;br/&gt;吞酸]\nC --&gt; D2[中焦氣機壅滯&lt;br/&gt;胸滿]\nC --&gt; D3[脾失健運&lt;br/&gt;食少便泄]\nB --&gt; D4[氣血生化不足&lt;br/&gt;面黃體倦]\nA --&gt; D4\nC --&gt; E[誤用清氣化痰丸&lt;br/&gt;苦寒燥降]\nE --&gt; F[更傷脾陽/脾氣&lt;br/&gt;運化更弱]\nF --&gt; G[濕邪壅滯下肢經絡&lt;br/&gt;兩膝漸腫]\nF --&gt; H[濕鬱化熱 + 陽氣被遏&lt;br/&gt;寒熱往來]\nF --&gt; I[濕久化熱&lt;br/&gt;濕熱內蘊]\nI --&gt; J[濕熱下注&lt;br/&gt;走帶脈/下焦]\nJ --&gt; K[帶脈失約&lt;br/&gt;帶下不止]\nK --&gt; L[帶下黃白相兼&lt;br/&gt;（濕重白、熱重黃）]\nJ --&gt; M[下注經絡/肌腠&lt;br/&gt;腿腫、指縫常濕]\nM --&gt; N[或兩腿赤腫&lt;br/&gt;（濕熱更盛）]\n\n%% ========== Treatment ==========\nT[治則：補脾益氣、升清舉陷&lt;br/&gt;兼燥濕化濁、溫中助運] --&gt; P[方：補中益氣湯&lt;br/&gt;倍參、朮]\nP --&gt; Q[加：茯苓、半夏&lt;br/&gt;化濕和胃降逆]\nP --&gt; R[加：炮姜&lt;br/&gt;溫中助運、燥濕固脾]\nP --&gt; S[升麻、柴胡&lt;br/&gt;升清陽、舉陷]\nS --&gt; U[濕不下陷、帶脈得約&lt;br/&gt;腫消帶止而愈]\nQ --&gt; U\nR --&gt; U\nP --&gt; U\n\n%% ========== Emotional factor branch ==========\nX[若因怒（情志不遂）] --&gt; Y[肝鬱乘脾&lt;br/&gt;脾運更弱]\nY --&gt; Z[濕更重或夾熱&lt;br/&gt;少食、發熱、赤腫、指縫濕]\nZ --&gt; AA[方：六君子湯&lt;br/&gt;（補脾益氣+化濕）]\nAA --&gt; AB[加：柴胡、升麻&lt;br/&gt;疏肝升陽]\nAB --&gt; AC[並可酌用補中益氣湯&lt;br/&gt;（視下陷/帶下/氣虛）]\n\n\n\n\n\n\n\n\n2.2.4 步驟 3：複製語法，貼入渲染平台\n\n線上渲染：mermaid.live\n推薦 Notion，裡面自己就有渲染 Mermaid 語法的功能\n啟用方式：打 / 找 mermaid\n\n\n\n2.2.5 步驟 4：成果目標\n\n\n\n\n\n\n\n2.2.6 步驟 5：混合 Module 1 的技巧\n請以 infographic 的生圖，以專業可愛風格，水豚君教授小白豬助理為輔助\n{ mermaid 語法貼入 }\n成果：",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 2 — 病因病機的邏輯實現</span>"
+    ]
+  },
+  {
+    "objectID": "module2.html#什麼是-mermaid",
+    "href": "module2.html#什麼是-mermaid",
+    "title": "2  Module 2 — 病因病機的邏輯實現",
+    "section": "2.3 什麼是 Mermaid？",
+    "text": "2.3 什麼是 Mermaid？\nMermaid 是一種基於 Markdown 啟發式語法的工具，主要用於將文字程式碼快速轉換成各種圖表和流程圖。\n簡介：\nMermaid 是一種 JavaScript 架構的圖表繪製工具，它允許您使用簡單、可讀性高的文字代碼來定義圖表結構，然後將這些代碼「渲染」成視覺化的圖形。\n在文件中的應用：\n在 Module 2 中，Mermaid 語法作為「結構化病機思考」的輸出工具：\n\n目的： 將古今醫案中複雜的病因、病機、誤治與治療分支等邏輯關係視覺化\n方式： 透過撰寫文字程式碼（例如 flowchart TD 後定義節點和箭頭）\n結果： 輸出為清晰的邏輯流程圖，以視覺化的方式呈現病理演變\n操作平台： mermaid.live 或 Notion",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Module 2 — 病因病機的邏輯實現</span>"
+    ]
+  },
+  {
+    "objectID": "module3.html",
+    "href": "module3.html",
+    "title": "3  Module 3 — 多重文字精準控制的技巧",
+    "section": "",
+    "text": "3.1 學習重點",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 3 — 多重文字精準控制的技巧</span>"
+    ]
+  },
+  {
+    "objectID": "module3.html#學習重點",
+    "href": "module3.html#學習重點",
+    "title": "3  Module 3 — 多重文字精準控制的技巧",
+    "section": "",
+    "text": "抽取要素之後，存成 YAML 格式調整庫",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 3 — 多重文字精準控制的技巧</span>"
+    ]
+  },
+  {
+    "objectID": "module3.html#學習觀察圖片的要素意向性",
+    "href": "module3.html#學習觀察圖片的要素意向性",
+    "title": "3  Module 3 — 多重文字精準控制的技巧",
+    "section": "3.2 學習觀察圖片的要素（意向性）",
+    "text": "3.2 學習觀察圖片的要素（意向性）\n\n排版（四格）\n色彩風格\n形式（漫畫、雜誌、圖解…）",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 3 — 多重文字精準控制的技巧</span>"
+    ]
+  },
+  {
+    "objectID": "module3.html#prompt-練習-1-排版分析",
+    "href": "module3.html#prompt-練習-1-排版分析",
+    "title": "3  Module 3 — 多重文字精準控制的技巧",
+    "section": "3.3 Prompt 練習 1 — 排版分析",
+    "text": "3.3 Prompt 練習 1 — 排版分析\n將圖片貼入對話框，開啟「Pro」模式：\n請分析這個圖片的{排版}，以 yaml 格式輸出\n\n3.3.1 結果示範\nImage_Layout_Analysis:\n  Overall_Structure:\n    Format: \"四格漫畫 (4-Panel Comic Strip)\"\n    Grid_System: \"2x2 網格 (兩列兩行，各窗格等比例對稱)\"\n    Reading_Direction: \"由左至右，由上至下 (Left to Right, Top to Bottom)\"\n    Gutter: \"白色邊框分隔各個面板\"\n  Header:\n    Position: \"頂部置中，獨立於四格漫畫之外\"\n    Text_Content: \"水豚教授的AI魔法課\"\n    Typography: \"粗體黑色大字，作為全圖主視覺標題\"\n  Panels:\n    Panel_1:\n      Grid_Position: \"左上角 (Row 1, Column 1)\"\n      Composition: \"全景/遠景 (Wide Shot)，建立場景與人物關係\"\n      Main_Subjects:\n        Right: \"水豚教授 (面向左側，手持教鞭指向黑板)\"\n        Left_to_Center: \"多名動物學生 (背對/側面對鏡頭，坐在木桌前使用筆電)\"\n      Visual_Elements: \"木造教室、窗外森林風景、黑板\"\n      Text_Distribution:\n        - Type: \"黑板文字\"\n          Position: \"畫面左上角\"\n          Content: \"結構化病機 -&gt; AI\"\n        - Type: \"對話框 (教授)\"\n          Position: \"畫面中上方\"\n          Content: \"各位同學，歡迎來到林口長庚！今天我們要學習如何將語言結構轉化為圖像！\"\n    Panel_2:\n      Grid_Position: \"右上角 (Row 1, Column 2)\"\n      Composition: \"中景/特寫 (Medium Shot)\"\n      Main_Subjects:\n        Right: \"水豚教授 (側面特寫，推眼鏡)\"\n        Left: \"小豬學生 (正面站立，手持平板)\"\n      Text_Distribution:\n        - Type: \"對話框 (小豬)\"\n          Content: \"只要掌握了結構化思考，AI就能聽懂我們的病機語言喔！\"\n    Panel_3:\n      Grid_Position: \"左下角 (Row 2, Column 1)\"\n      Composition: \"平視角群像 (Group Shot)\"\n      Text_Distribution:\n        - Type: \"音效文字\"\n          Content: \"答答答...\"\n        - Type: \"對話框 (兔子)\"\n          Content: \"哇！真的跑出來了！\"\n    Panel_4:\n      Grid_Position: \"右下角 (Row 2, Column 2)\"\n      Text_Distribution:\n        - Type: \"對話框 (教授)\"\n          Content: \"太棒了！大家都掌握了AI建模的精隨！\"\n        - Type: \"對話框 (兔子)\"\n          Content: \"上課好開心！\"",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 3 — 多重文字精準控制的技巧</span>"
+    ]
+  },
+  {
+    "objectID": "module3.html#prompt-練習-2-色彩分析",
+    "href": "module3.html#prompt-練習-2-色彩分析",
+    "title": "3  Module 3 — 多重文字精準控制的技巧",
+    "section": "3.4 Prompt 練習 2 — 色彩分析",
+    "text": "3.4 Prompt 練習 2 — 色彩分析\n\n\n\n\n\n將圖片貼入對話框，開啟「Pro」模式：\n請分析這個圖片的{色彩}，以 yaml 格式輸出\n\n3.4.1 結果示範\nimage_color_profile:\n  overall_vibe:\n    tone: \"溫暖柔和 (Warm and Soft)\"\n    temperature: \"暖色調為主，冷色調為輔\"\n    style: \"水彩童話繪本風 (Watercolor Storybook Style)\"\n  color_palette:\n    primary_colors:\n      - name: \"大地棕 / 原木色 (Earthy Brown / Wood)\"\n        usage:\n          - \"教室內的課桌椅\"\n          - \"樑柱等木製建材\"\n          - \"水豚與松鼠的毛色\"\n      - name: \"奶油白 / 米色 (Cream White / Beige)\"\n        usage:\n          - \"畫面基底色\"\n          - \"對話框與文字背景\"\n          - \"白兔的毛色\"\n    secondary_colors:\n      - name: \"復古黑板綠 (Vintage Blackboard Green)\"\n        usage:\n          - \"黑板背景\"\n          - \"水豚教授的西裝背心\"\n          - \"窗外森林風景\"\n      - name: \"柔和粉彩 (Pastel Pink & Blue)\"\n        usage:\n          - \"小豬的膚色與角色的腮紅\"\n          - \"學生的服裝配件\"\n    accent_colors:\n      - name: \"魔法科技螢光 (Magical Tech Neon)\"\n        specific_colors: [\"青藍色 (Cyan)\", \"粉紫色 (Magenta/Pink)\", \"亮黃色 (Bright Yellow)\"]\n        effect: \"在溫馨復古的木質環境中，利用高明度的發光色對比出「AI 科技」與「魔法」的視覺焦點。\"",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 3 — 多重文字精準控制的技巧</span>"
+    ]
+  },
+  {
+    "objectID": "module3.html#什麼是-yaml-格式",
+    "href": "module3.html#什麼是-yaml-格式",
+    "title": "3  Module 3 — 多重文字精準控制的技巧",
+    "section": "3.5 什麼是 YAML 格式？",
+    "text": "3.5 什麼是 YAML 格式？\nYAML（YAML Ain’t Markup Language）是一種指令碼語言，被設計為極度人性化且易於機器解析的資料序列化格式。\n\n3.5.1 格式設計的原因\n\n人與機器都易讀：使用縮排來表示資料的結構與層級關係，取代了括號或標籤。\n清晰的結構化：YAML 的格式是一組鍵/值組合（Key: Value），透過縮排建立巢狀結構。\n數據交換的靈活性：支援純量（單一值）、列表（序列）和映射（字典/物件）。\n\n\n\n3.5.2 在結構化病機思考中的應用\n在課程中，YAML 格式完美服務於 Module 3 的目的：\n\n作為提示詞調整庫：將圖片的排版、顏色、角色位置等元素透過 YAML 格式清晰地拆解出來\n精準控制 AI 圖像：能夠精確地引用結構化的控制參數，穩定地生成符合預期風格和佈局的圖像，實現「多重文字的精準控制」",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Module 3 — 多重文字精準控制的技巧</span>"
+    ]
+  },
+  {
+    "objectID": "module4.html",
+    "href": "module4.html",
+    "title": "4  Module 4 — 製作醫學解剖插畫圖片",
+    "section": "",
+    "text": "4.1 學習重點：什麼是 META-Prompt\nMETA-Prompt 是一種更複雜、更詳細的指令，它事先為 AI 設定了角色（Role）、目標（Goal）、固定風格參數（Design Guidelines），以及內容邏輯結構（Quadrant Logic）。\n核心目的：",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 4 — 製作醫學解剖插畫圖片</span>"
+    ]
+  },
+  {
+    "objectID": "module4.html#學習重點什麼是-meta-prompt",
+    "href": "module4.html#學習重點什麼是-meta-prompt",
+    "title": "4  Module 4 — 製作醫學解剖插畫圖片",
+    "section": "",
+    "text": "穩定風格：確保每次生成圖像時，都能維持一致的藝術風格、色彩調性、排版與質感。\n結構化內容：將複雜主題拆解成固定的邏輯區塊，強迫 AI 按照這個結構輸出細節。\n自動化複雜提示詞的生成：一旦設定好 META-Prompt，使用者只需輸入一個簡單的主題，AI 就能自動根據所有預設規則，產生出完整且極度精確的英文圖像生成提示詞。",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 4 — 製作醫學解剖插畫圖片</span>"
+    ]
+  },
+  {
+    "objectID": "module4.html#步驟-1輸入-meta-prompt",
+    "href": "module4.html#步驟-1輸入-meta-prompt",
+    "title": "4  Module 4 — 製作醫學解剖插畫圖片",
+    "section": "4.2 步驟 1：輸入 META-Prompt",
+    "text": "4.2 步驟 1：輸入 META-Prompt\n你現在是一位結合中醫解剖學與醫療視覺設計的專家。\n\n接下來，當我輸入任何【穴位名稱】時，請精確分析其解剖結構與主治功能，\n並「嚴格」依照以下的 YAML 格式輸出結果。不要夾帶任何其他廢話。\nYAML 輸出格式定義：\nacupuncture_point:\n  name: \"[穴位繁體中文名稱] ([國際代碼，例如 LI4])\"\n  pinyin: \"[拼音]\"\n  anatomy_details:\n    bone_landmark: \"[精確的骨骼基準與定位點]\"\n    muscle_layer: \"[主要肌肉層次與深度]\"\n    nerve_vessel: \"[關鍵神經與血管]\"\n  clinical_functions:\n    - function: \"[核心主治一]\"\n      symptoms: \"[對應症狀，限 5 個字內]\"\n    - function: \"[核心主治二]\"\n      symptoms: \"[對應症狀，限 5 個字內]\"\n    - function: \"[核心主治三]\"\n      symptoms: \"[對應症狀，限 5 個字內]\"\n  visual_generation_parameters:\n    layout: \"16:9 寬版雙欄設計，左側半透明解剖圖，右側功能資訊卡片\"\n    text_elements_zh_tw_for_post_editing:\n      title: \"[穴位名稱] 精確解剖定位與主治\"\n      anatomy_labels: [\"[骨骼繁體標籤]\", \"[肌肉繁體標籤]\", \"[神經血管繁體標籤]\"]\n    image_generation_prompt: &gt;\n      A highly professional 16:9 medical infographic poster. Split layout.\n      Left side: Precise semi-transparent medical illustration of the [身體部位英文],\n      revealing the [具體骨骼英文] and [具體肌肉英文]. A clear red dot marks the\n      [拼音] acupuncture point. Attempt to include Traditional Chinese typography\n      for labels: \"[代入骨骼與肌肉的繁體中文]\".\n      Right side: Clean, modern clinical UI layout with 3 minimalist medical\n      function cards. Soft clinical colors (light blue, gray, white), scientific\n      aesthetics, no cluttered background. Attempt to write Traditional Chinese\n      text: \"[代入核心主治一]、[代入核心主治二]\".",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 4 — 製作醫學解剖插畫圖片</span>"
+    ]
+  },
+  {
+    "objectID": "module4.html#步驟-2輸入你要的穴位",
+    "href": "module4.html#步驟-2輸入你要的穴位",
+    "title": "4  Module 4 — 製作醫學解剖插畫圖片",
+    "section": "4.3 步驟 2：輸入你要的穴位",
+    "text": "4.3 步驟 2：輸入你要的穴位\n範例輸入：足三里\n\n4.3.1 輸出範例\nacupuncture_point:\n  name: \"足三里 (ST36)\"\n  pinyin: \"Zú Sān Lǐ\"\n  anatomy_details:\n    bone_landmark: \"脛骨前嵴外側一橫指，犢鼻下 3 寸\"\n    muscle_layer: \"脛骨前肌、趾長伸肌深部\"\n    nerve_vessel: \"腓深神經、脛前動靜脈\"\n  clinical_functions:\n    - function: \"調理脾胃\"\n      symptoms: \"胃痛、嘔吐\"\n    - function: \"補中益氣\"\n      symptoms: \"疲勞、虛弱\"\n    - function: \"通經活絡\"\n      symptoms: \"下肢痹痛\"\n  visual_generation_parameters:\n    layout: \"16:9 寬版雙欄設計，左側半透明解剖圖，右側功能資訊卡片\"\n    text_elements_zh_tw_for_post_editing:\n      title: \"足三里 精確解剖定位與主治\"\n      anatomy_labels: [\"脛骨前嵴\", \"脛骨前肌\", \"腓深神經\"]\n    image_generation_prompt: &gt;\n      A highly professional 16:9 medical infographic poster. Split layout.\n      Left side: Precise semi-transparent medical illustration of the lower leg,\n      revealing the Tibia and Tibialis anterior muscle. A clear red dot marks the\n      Zusanli acupuncture point. Attempt to include Traditional Chinese typography\n      for labels: \"脛骨、脛骨前肌\".\n      Right side: Clean, modern clinical UI layout with 3 minimalist medical\n      function cards. Soft clinical colors (light blue, gray, white), scientific\n      aesthetics, no cluttered background. Attempt to write Traditional Chinese\n      text: \"調理脾胃、補中益氣\".",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 4 — 製作醫學解剖插畫圖片</span>"
+    ]
+  },
+  {
+    "objectID": "module4.html#步驟-3將-prompt-貼入新的對話窗",
+    "href": "module4.html#步驟-3將-prompt-貼入新的對話窗",
+    "title": "4  Module 4 — 製作醫學解剖插畫圖片",
+    "section": "4.4 步驟 3：將 Prompt 貼入新的對話窗",
+    "text": "4.4 步驟 3：將 Prompt 貼入新的對話窗\n勾選：生成圖片，模型：思考型",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 4 — 製作醫學解剖插畫圖片</span>"
+    ]
+  },
+  {
+    "objectID": "module4.html#步驟-4如何生成-meta-prompt",
+    "href": "module4.html#步驟-4如何生成-meta-prompt",
+    "title": "4  Module 4 — 製作醫學解剖插畫圖片",
+    "section": "4.5 步驟 4：如何生成 META-Prompt",
+    "text": "4.5 步驟 4：如何生成 META-Prompt\n當你跟生成式 AI 互動，覺得結果最滿意的時候，請後續輸入：\n請輸出這個結果的 META-Prompt\n\n\n\n\n\n\n注记\n\n\n\n參考對話紀錄：穴位解剖定位與衛教圖生成對話紀錄",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 4 — 製作醫學解剖插畫圖片</span>"
+    ]
+  },
+  {
+    "objectID": "module4.html#meta-prompt-總結",
+    "href": "module4.html#meta-prompt-總結",
+    "title": "4  Module 4 — 製作醫學解剖插畫圖片",
+    "section": "4.6 META-Prompt 總結",
+    "text": "4.6 META-Prompt 總結\n\n\n\n\n\n\n\n要素\n說明\n\n\n\n\nRole（角色）\n專業醫學解剖插畫家\n\n\nGoal（目標）\n根據主題撰寫詳細的圖像生成提示詞\n\n\nDesign Guidelines（設計指南）\n固定 2x2 排版、復古米色工程方格紙背景、達文西解剖風格\n\n\nQuadrant Logic（四格邏輯）\n骨骼/關節 → 肌肉/軟組織 → 神經/循環/臟器 → 整體體態/剪影\n\n\n\nMETA-Prompt 是將您的專業醫療知識和視覺化意圖，轉化為可重複、可控制、高準確性的 AI 提示詞的高階結構化框架。",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Module 4 — 製作醫學解剖插畫圖片</span>"
+    ]
+  },
+  {
+    "objectID": "practice.html",
+    "href": "practice.html",
+    "title": "5  練習題 — 模組綜合應用",
+    "section": "",
+    "text": "5.1 案例原文\n嘗試運用學到的概念練習「漫畫」化本案。",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>練習題 — 模組綜合應用</span>"
+    ]
+  },
+  {
+    "objectID": "practice.html#案例原文",
+    "href": "practice.html#案例原文",
+    "title": "5  練習題 — 模組綜合應用",
+    "section": "",
+    "text": "羅謙甫治不潾吉歹元帥夫人。年逾五旬。身體肥盛。值八月中霖雨不止。因飲酒及潼乳過度。遂病腹脹喘滿。聲聞於外。不得安臥。大小便澀滯。氣口脈大。兩倍於人迎。關脈沉緩而有力。因思霖雨之濕。飲食之熱。濕熱大盛。上攻於肺。所謂盛則為喘也。邪氣盛則實。實者宜下之。為制平氣散。內經曰。肺苦氣上逆。急食苦以瀉之。白牽牛苦寒。瀉氣分濕熱上攻喘滿。故用二兩。半生半熟以為君。陳皮苦溫。體輕浮理肺氣。用五錢。青皮苦辛平。散肺中滯氣。用三錢以為臣。檳榔辛溫。性沉重。下痰降氣。亦用三錢。大黃苦寒。盪滌滿實。用七錢以為使。末服三錢。生薑湯調下。兩服而喘愈。止有胸膈不利。煩熱口乾。時時咳嗽。以瀉白散加知母、黃芩、桔梗、青皮全愈。",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>練習題 — 模組綜合應用</span>"
+    ]
+  },
+  {
+    "objectID": "practice.html#操作步驟",
+    "href": "practice.html#操作步驟",
+    "title": "5  練習題 — 模組綜合應用",
+    "section": "5.2 操作步驟",
+    "text": "5.2 操作步驟\n\n5.2.1 Step 1：將病案資料放進 Gemini 進行理解\n直接貼入原文，以大括弧限定範圍。\n\n\n5.2.2 Step 2：給予意向性\nHint 1（想要圖解成漫畫要怎麼做？不懂就問）\n我有一段病案，我想要圖解成漫畫的精準控制，你建議我怎麼做？\nHint 2：你想要給的受眾是誰？\n\n中醫師？\n一般民眾？\n\n\n\n5.2.3 Step 3：限制格式，將分鏡與對話以 YAML 輸出\n\n\n\n\n\n\n\n\n\n\n\n注记\n\n\n\n參考流程：Notion 工作流程參考\n\n\n*請務必自己先嘗試試試看各種流程\n\n\n5.2.4 Step 4：META Prompt\n當最後的成果滿意時：\n我覺得最後的成果很好，你能夠嘗試寫出這個流程的 meta prompt 嗎？\n\n\n5.2.5 META Prompt 範例參考\n# 系統角色與任務 (System Role & Task)\n你現在是一位頂級的「創意導演兼醫療插畫顧問」。你的任務是將使用者提供的\n【生硬病案 / 古文中醫醫案】轉化為高度結構化、具備醫學精準度，且適合後製\n排版的「四格漫畫分鏡腳本」。\n\n# 核心轉換原則 (Core Principles)\n1. 視覺與文字絕對分離：深知 AI 繪圖無法精準生成繁體中文的限制。所有生成\n   的 Image Prompt 必須強調「No text, clean background」，並將所有對話、\n   旁白、標籤獨立整理為「後製文字圖層 (Post-Processing Text Layer)」。\n\n2. 醫學意象化：將抽象的醫學概念（如中醫的濕熱、西醫的發炎反應）轉化為具\n   體的視覺意象（如濁氣、火焰、戰場），以利讀者理解。\n\n3. 語氣轉譯：將文言文或專業醫療術語，翻譯成生動、親切、帶有可愛感的白話\n   文案，適合衛教推廣。\n\n# 處理流程 (Workflow)\nStep 1: 閱讀並拆解病案，提取四大階段：\n        起因 (Etiology) ➔ 症狀 (Symptoms) ➔ 診斷 (Diagnosis) ➔ 病理與治療 (Pathology & Treatment)。\n\nStep 2: 設定統一的視覺風格（如：傳統中式混搭現代插畫、可愛手繪風、乾淨線條）。\n\nStep 3: 輸出標準化的 YAML 格式。\nYAML 輸出格式：\nProject: \"Comic Case Study: [填入病案名稱]\"\nLayout:\n  Format: \"Wide Horizontal Comic Strip (4 distinct panels side-by-side)\"\n  Aspect_Ratio: \"--ar 16:5\"\n  Aesthetic: \"[填入適合該病案的視覺風格]\"\nGlobal_Post_Processing_Directives:\n  Typography: \"Traditional Chinese (繁體中文)\"\n  Primary_Font_Style: \"Cute Hand-drawn / Comic Handwriting Font\"\nPanels:\n  Panel_1_[主題名稱]:\n    Visual_Prompt_Copy_Paste: &gt;\n      [PANEL 1/4] [環境描述]. [人物動作與表情]. [核心醫學視覺焦點/意象].\n      [光影與氣氛]. Comic art style, strictly no text, leave blank space\n      for post-processing text.\n    Post_Processing_Text_Layer:\n      - Type: \"Narrative Caption (旁白)\"\n        Text: \"[白話文/可愛風旁白]\"\n      - Type: \"Dialogue Bubble (角色對話)\"\n        Text: \"[生動的角色對話]\"\n      - Type: \"Sound Effect (音效/狀聲詞)\"\n        Text: \"[如：*呼哧*、*滴答*]\"\n      - Type: \"Medical Label (醫學註解標籤)\"\n        Target: \"[指向畫面哪個物件]\"\n        Text: \"[精簡的衛教知識/病理說明]\"",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>練習題 — 模組綜合應用</span>"
+    ]
+  },
+  {
+    "objectID": "practice.html#結語",
+    "href": "practice.html#結語",
+    "title": "5  練習題 — 模組綜合應用",
+    "section": "5.3 結語",
+    "text": "5.3 結語",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>練習題 — 模組綜合應用</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "6  附錄與參考資料",
+    "section": "",
+    "text": "6.1 附錄 1：影像備份索取問卷填寫\n演講的錄影備份，如果想要索取的同學請填一下下方留言區的問卷，感謝大家～\n索取問卷填寫：https://forms.gle/dkSmQEwoc6qpK1wM9",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>附錄與參考資料</span>"
+    ]
+  },
+  {
+    "objectID": "references.html#參考資料",
+    "href": "references.html#參考資料",
+    "title": "6  附錄與參考資料",
+    "section": "6.2 參考資料",
+    "text": "6.2 參考資料\n\n6.2.1 1. 廢話少說，用畫說 — Dan Roam\n廢話少說，用畫說\n這本書強調圖像式思考，幫助將複雜的問題拆解成簡單的六個象限（Who/What、How Much、Where、When、How、Why），這是將資訊轉化為 Infographic（Module 1）的基礎。\n\n\n6.2.2 2. 金字塔原理 — Barbara Minto\n金字塔原理\n關於金字塔原理（Minto Pyramid Principle）的書籍，教導如何結構化地呈現論點，這與在 Module 2 中使用 Mermaid 拆解複雜病機邏輯圖的訓練目標一致。\n\n\n6.2.3 3. Agentic AI — DeepLearning.AI 線上課\nAgentic AI 課程 — Chart Generation Workflow\nDeepLearning.AI 的這堂 Agentic AI 課程，完美對應了講義中提出的「Multiagent 的時代」概念。\n其中一個核心概念是「反射（Reflection）設計模式」，這與 Module 3 和 Module 4 中教導的結構化控制技巧高度相關：\n\n定義： 反射模式是指一個 AI 代理在產生初步結果後，會自我審查並改進其輸出。\n關聯性： 透過 YAML 和 META-Prompt 等結構化框架，人類事實上是提供了一個標準化的「反射與評估機制」給 AI 代理，確保其輸出能持續符合對精準度、風格和邏輯的要求。\n\n這門課程為學員提供了將「結構化思維」落實到實際 Agentic 工作流程的技術藍圖。",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>附錄與參考資料</span>"
+    ]
+  },
+  {
+    "objectID": "references.html#版權宣告",
+    "href": "references.html#版權宣告",
+    "title": "6  附錄與參考資料",
+    "section": "6.3 版權宣告",
+    "text": "6.3 版權宣告\n課程內容採 CC BY-NC-ND 4.0 授權（不含 AI 生成圖像）；\n圖像由 Google Gemini（Imagen 2）生成，依 Google 服務條款使用。\n投影片技術框架：frontend-slides，MIT License © 2025 Zara Zhang\nhttps://github.com/zarazhangrui/frontend-slides",
+    "crumbs": [
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>附錄與參考資料</span>"
+    ]
+  }
+]
