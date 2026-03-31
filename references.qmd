@@ -6,6 +6,10 @@
 
 索取問卷填寫：[https://forms.gle/dkSmQEwoc6qpK1wM9](https://forms.gle/dkSmQEwoc6qpK1wM9)
 
+## 附錄 2：QR Code
+
+本課程影片已整合至各章節。如需在手機上觀看完整課程，請掃描首頁的 QR code。
+
 ## 參考資料
 
 ### 1. 廢話少說，用畫說 — Dan Roam
@@ -33,6 +37,18 @@ DeepLearning.AI 的這堂 **Agentic AI** 課程，完美對應了講義中提出
 
 這門課程為學員提供了將「結構化思維」落實到實際 **Agentic 工作流程**的技術藍圖。
 
+### 4. mermaid.live
+
+[線上 Mermaid 流程圖渲染工具](https://mermaid.live/)
+
+本課程使用此工具將 Mermaid 語法渲染為視覺化流程圖。
+
+### 5. Gemini (Google AI)
+
+[Gemini](https://gemini.google.com/)
+
+本課程主要使用的 AI 工具，用於生成 Infographic、處理 YAML 格式、生成 MetaPrompt 等操作。
+
 ## 版權宣告
 
 課程內容採 **CC BY-NC-ND 4.0 授權**（不含 AI 生成圖像）；
@@ -42,3 +58,7 @@ DeepLearning.AI 的這堂 **Agentic AI** 課程，完美對應了講義中提出
 投影片技術框架：frontend-slides，MIT License © 2025 Zara Zhang
 
 [https://github.com/zarazhangrui/frontend-slides](https://github.com/zarazhangrui/frontend-slides)
+
+## 勘誤
+
+如有發現字幕或內容錯誤，請參考 [corrections.md](corrections.md) 提交勘誤。

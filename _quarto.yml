@@ -14,6 +14,8 @@ book:
     - module4.qmd
     - practice.qmd
     - references.qmd
+  resources:
+    - lecture_trimmed.mp4
 
 format:
   html:
@@ -24,3 +26,10 @@ format:
     number-sections: true
     code-block-bg: true
     highlight-style: github
+    include-in-header: includes/header.html
+
+website:
+  sidebar:
+    style: floating
+    search: true
+  page-navigation: true

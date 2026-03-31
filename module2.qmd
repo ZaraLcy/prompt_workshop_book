@@ -1,45 +1,88 @@
-# Module 2 — 病因病機的邏輯實現
+# Module 2 — 病因病機的邏輯實現 [▶ 00:22:55]
 
-## 演練：將古今醫案按病因病機化
+::: {.video-section}
+<summary>📹 觀看本章影片</summary>
+<video controls preload="metadata">
+  <source src="videos/02-module2.mp4" type="video/mp4">
+  <track label="繁體中文" kind="subtitles" srclang="zh-TW" src="subtitles/02-module2.vtt" default>
+  您的瀏覽器不支援影片播放。
+</video>
+:::
+:::
+
+## 學習目標
+
+<div class="learning-checklist">
+  <h4>📋 Module 2 學習目標</h4>
+  <form>
+    <label>
+      <input type="checkbox" name="m2-obj1">
+      <span>能使用 Mermaid 語法繪製病機邏輯流程圖</span>
+    </label>
+    <label>
+      <input type="checkbox" name="m2-obj2">
+      <span>能將 Mermaid 輸出轉為彩色版本</span>
+    </label>
+    <label>
+      <input type="checkbox" name="m2-obj3">
+      <span>能將 Mermaid 結果再轉為 Infographic 圖解</span>
+    </label>
+    <label>
+      <input type="checkbox" name="m2-obj4">
+      <span>理解如何利用 mermaid.live 渲染流程圖</span>
+    </label>
+  </form>
+  <button type="button" class="reset-btn">重設進度</button>
+</div>
+
+## 演練：將古今醫案按病因病機化 [▶ 00:22:55]
 
 > 脾胃虛濕熱下注型帶下
 >
-> 一婦人吞酸胸滿。食少便泄。月經不調。服清氣化痰丸。兩膝漸腫。寒熱往來。帶下黃白。面黃體倦。此脾胃虛濕熱下注。
+> 一富人吞酸胸滿。食少便泄。月經不通。服清氣化痰丸。兩膝漸腫。寒熱往來。帶下黃白。面黃體倦。此脾胃虛濕熱下注。
 >
-> 用補中益氣倍參、朮。加茯苓、半夏、炮姜而愈。
+> 用補中益氣倍參、朮。加茯苓、半夏、炮薑而愈。
 >
 > 若因怒。發熱少食。或兩腿赤腫。或指縫常濕。用六君加柴胡、升麻。及補中益氣。
 
 **成果目標：**
 
-![](images/media/image1.png){fig-align="center" width="90%"}
+![](../images/media/image1.png){fig-align="center" width="90%"}
 
 ## 操作順序
 
-### 步驟 1：Prompt 練習 1 — 病因病機拆解
+### 步驟 1：Prompt 練習 1 — 病因病機拆解 [▶ 00:24:25]
 
+<div class="prompt-block">
+```{.copy-btn}
 ```
+```{.prompt-block}
 請以病因病機的角度來拆解此案
 
 {脾胃虛濕熱下注型帶下
 
-一婦人吞酸胸滿。食少便泄。月經不調。服清氣化痰丸。
+一富人吞酸胸滿。食少便泄。月經不通。服清氣化痰丸。
 兩膝漸腫。寒熱往來。帶下黃白。面黃體倦。此脾胃虛濕熱下注。
 
-用補中益氣倍參、朮。加茯苓、半夏、炮姜而愈。
+用補中益氣倍參、朮。加茯苓、半夏、炮薑而愈。
 
 若因怒。發熱少食。或兩腿赤腫。或指縫常濕。用六君加柴胡、升麻。及補中益氣。
 
 }
 ```
+</div>
 
-### 步驟 2：Prompt 練習 2 — 以彩色 Mermaid 語法輸出
+### 步驟 2：Prompt 練習 2 — 以彩色 Mermaid 語法輸出 [▶ 00:26:07]
 
+<div class="prompt-block">
+```{.copy-btn}
 ```
+```{.prompt-block}
 請以彩色 mermaid 語法輸出
 ```
+</div>
 
-### 成果範例
+### 成果範例 [▶ 00:26:48]
 
 ```{mermaid}
 flowchart TD
@@ -66,9 +109,9 @@ M --> N[或兩腿赤腫<br/>（濕熱更盛）]
 %% ========== Treatment ==========
 T[治則：補脾益氣、升清舉陷<br/>兼燥濕化濁、溫中助運] --> P[方：補中益氣湯<br/>倍參、朮]
 P --> Q[加：茯苓、半夏<br/>化濕和胃降逆]
-P --> R[加：炮姜<br/>溫中助運、燥濕固脾]
+P --> R[加：炮薑<br/>溫中助運、燥濕固脾]
 P --> S[升麻、柴胡<br/>升清陽、舉陷]
-S --> U[濕不下陷、帶脈得約<br/>腫消帶止而愈]
+S --> U[濕不下陷、帶脈得約<br/>腫消帶止而癒]
 Q --> U
 R --> U
 P --> U
@@ -81,31 +124,35 @@ AA --> AB[加：柴胡、升麻<br/>疏肝升陽]
 AB --> AC[並可酌用補中益氣湯<br/>（視下陷/帶下/氣虛）]
 ```
 
-### 步驟 3：複製語法，貼入渲染平台
+### 步驟 3：複製語法，貼入渲染平台 [▶ 00:28:13]
 
 - 線上渲染：[mermaid.live](https://mermaid.live/)
 - **推薦 Notion**，裡面自己就有渲染 Mermaid 語法的功能
 
   啟用方式：打 `/` 找 `mermaid`
 
-### 步驟 4：成果目標
+### 步驟 4：成果目標 [▶ 00:28:34]
 
-![](images/media/image1.png){fig-align="center" width="90%"}
+![](../images/media/image1.png){fig-align="center" width="90%"}
 
-### 步驟 5：混合 Module 1 的技巧
+### 步驟 5：混合 Module 1 的技巧 [▶ 00:31:53]
 
+<div class="prompt-block">
+```{.copy-btn}
 ```
+```{.prompt-block}
 請以 infographic 的生圖，以專業可愛風格，水豚君教授小白豬助理為輔助
 { mermaid 語法貼入 }
 ```
+</div>
 
 **成果：**
 
-![](images/media/image3.png){fig-align="center" width="90%"}
+![](../images/media/image3.png){fig-align="center" width="90%"}
 
-## 什麼是 Mermaid？
+## 什麼是 Mermaid？ [▶ 00:35:42]
 
-Mermaid 是一種基於 **Markdown 啟發式語法**的工具，主要用於將文字程式碼快速轉換成各種圖表和流程圖。
+<span class="term" data-tooltip="一種流程圖標記語法，可用於繪製病機邏輯流程圖">Mermaid</span> 是一種基於 **Markdown 啟發式語法**的工具，主要用於將文字程式碼快速轉換成各種圖表和流程圖。
 
 **簡介：**
 
@@ -119,3 +166,15 @@ Mermaid 是一種 JavaScript 架構的圖表繪製工具，它允許您使用簡
 - **方式：** 透過撰寫文字程式碼（例如 `flowchart TD` 後定義節點和箭頭）
 - **結果：** 輸出為清晰的**邏輯流程圖**，以視覺化的方式呈現病理演變
 - **操作平台：** [mermaid.live](https://mermaid.live/) 或 Notion
+
+---
+
+## 章節時間戳快速導航
+
+| 內容 | 時間 |
+|------|------|
+| Mermaid 概念介紹 | [00:22:55 - 00:23:50](lecture_trimmed.mp4#t=1375) |
+| 病因病機 Prompt 實作 | [00:24:25 - 00:26:07](lecture_trimmed.mp4#t=1465) |
+| Mermaid 彩色輸出 | [00:26:07 - 00:26:48](lecture_trimmed.mp4#t=1567) |
+| mermaid.live 渲染教學 | [00:28:13 - 00:30:00](lecture_trimmed.mp4#t=1693) |
+| Mermaid + Infographic 混合 | [00:31:53 - 00:35:00](lecture_trimmed.mp4#t=1913) |

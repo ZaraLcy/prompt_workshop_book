@@ -1,3 +1,16 @@
 /.quarto/
 /_book/
 /content_raw.md
+
+# 大檔案（本地存檔，尚未上傳至影片平台）
+# 請將影片上傳至 YouTube/Vimeo 後，更新 .qmd 中的影片嵌入連結
+# 影片分段：
+# 大檔案（本地存檔，尚未上傳至影片平台）
+# 請將影片上傳至 YouTube/Vimeo 後，更新 .qmd 中的影片嵌入連結
+# 影片分段：
+videos/
+
+# QR Code（請自行生成）
+# 1. 前往 https://qrcode.2code.info/ 或其他 QR code 生成器
+# 2. 輸入影片 URL
+# 3. 下載 PNG 並儲存為 images/qr-code.png

@@ -1,10 +1,45 @@
-# Module 4 — 製作醫學解剖插畫圖片
+# Module 4 — 製作醫學解剖插畫圖片 [▶ 00:41:37]
 
-![](images/media/image15.png){fig-align="center" width="90%"}
+::: {.video-section}
+<summary>📹 觀看本章影片</summary>
+<video controls preload="metadata">
+  <source src="videos/04-module4.mp4" type="video/mp4">
+  <track label="繁體中文" kind="subtitles" srclang="zh-TW" src="subtitles/04-module4.vtt" default>
+  您的瀏覽器不支援影片播放。
+</video>
+:::
+:::
 
-## 學習重點：什麼是 META-Prompt
+## 學習目標
 
-META-Prompt 是一種更複雜、更詳細的指令，它事先為 AI 設定了**角色（Role）**、**目標（Goal）**、**固定風格參數（Design Guidelines）**，以及**內容邏輯結構（Quadrant Logic）**。
+<div class="learning-checklist">
+  <h4>📋 Module 4 學習目標</h4>
+  <form>
+    <label>
+      <input type="checkbox" name="m4-obj1">
+      <span>能使用 MetaPrompt 概念生成穴位插畫</span>
+    </label>
+    <label>
+      <input type="checkbox" name="m4-obj2">
+      <span>能輸入不同穴位並生成一致的插畫風格</span>
+    </label>
+    <label>
+      <input type="checkbox" name="m4-obj3">
+      <span>能將成功結果轉為可重複使用的 MetaPrompt</span>
+    </label>
+    <label>
+      <input type="checkbox" name="m4-obj4">
+      <span>理解 Role、Goal、Design Guidelines、Quadrant Logic 四要素</span>
+    </label>
+  </form>
+  <button type="button" class="reset-btn">重設進度</button>
+</div>
+
+![](../images/media/image15.png){fig-align="center" width="90%"}
+
+## 學習重點：什麼是 META-Prompt [▶ 00:42:24]
+
+<span class="term" data-tooltip="後設提示詞：用於描述 Prompt 本身的 Prompt，可讓 AI 自動生成符合風格的 Prompt">MetaPrompt</span> 是一種更複雜、更詳細的指令，它事先為 AI 設定了**角色（Role）**、**目標（Goal）**、**固定風格參數（Design Guidelines）**，以及**內容邏輯結構（Quadrant Logic）**。
 
 核心目的：
 
@@ -12,17 +47,25 @@ META-Prompt 是一種更複雜、更詳細的指令，它事先為 AI 設定了*
 - **結構化內容**：將複雜主題拆解成固定的邏輯區塊，強迫 AI 按照這個結構輸出細節。
 - **自動化複雜提示詞的生成**：一旦設定好 META-Prompt，使用者只需輸入一個簡單的主題，AI 就能自動根據所有預設規則，產生出完整且極度精確的英文圖像生成提示詞。
 
-## 步驟 1：輸入 META-Prompt
+## 步驟 1：輸入 META-Prompt [▶ 00:45:19]
 
+<div class="prompt-block">
+```{.copy-btn}
 ```
+```{.prompt-block}
 你現在是一位結合中醫解剖學與醫療視覺設計的專家。
 
 接下來，當我輸入任何【穴位名稱】時，請精確分析其解剖結構與主治功能，
 並「嚴格」依照以下的 YAML 格式輸出結果。不要夾帶任何其他廢話。
 ```
+</div>
 
 **YAML 輸出格式定義：**
 
+<div class="prompt-block">
+```{.copy-btn}
+```
+```{.prompt-block}
 ```yaml
 acupuncture_point:
   name: "[穴位繁體中文名稱] ([國際代碼，例如 LI4])"
@@ -54,8 +97,9 @@ acupuncture_point:
       aesthetics, no cluttered background. Attempt to write Traditional Chinese
       text: "[代入核心主治一]、[代入核心主治二]".
 ```
+</div>
 
-## 步驟 2：輸入你要的穴位
+## 步驟 2：輸入你要的穴位 [▶ 00:45:42]
 
 範例輸入：`足三里`
 
@@ -93,27 +137,31 @@ acupuncture_point:
       text: "調理脾胃、補中益氣".
 ```
 
-## 步驟 3：將 Prompt 貼入新的對話窗
+## 步驟 3：將 Prompt 貼入新的對話窗 [▶ 00:46:14]
 
 勾選：生成圖片，模型：思考型
 
 注意範例圖片為穴位標示有誤版本，出圖仍要檢查。
 
-![](images/media/image8.png){fig-align="center" width="90%"}
+![](../images/media/image8.png){fig-align="center" width="90%"}
 
-## 步驟 4：如何生成 META-Prompt
+## 步驟 4：如何生成 META-Prompt [▶ 00:49:51]
 
 當你跟生成式 AI 互動，覺得結果最滿意的時候，請後續輸入：
 
+<div class="prompt-block">
+```{.copy-btn}
 ```
+```{.prompt-block}
 請輸出這個結果的 META-Prompt
 ```
+</div>
 
 ::: {.callout-note}
 參考對話紀錄：[穴位解剖定位與衛教圖生成對話紀錄](https://docs.google.com/document/d/1n45IRTAmY5MYzIvps4uOkZ1VzuDJxR5SuAbou31Adc8/edit?usp=sharing)
 :::
 
-## META-Prompt 總結
+## META-Prompt 總結 [▶ 00:53:00]
 
 | 要素 | 說明 |
 |------|------|
@@ -123,3 +171,14 @@ acupuncture_point:
 | **Quadrant Logic（四格邏輯）** | 骨骼/關節 → 肌肉/軟組織 → 神經/循環/臟器 → 整體體態/剪影 |
 
 META-Prompt 是將您的**專業醫療知識**和**視覺化意圖**，轉化為**可重複、可控制、高準確性**的 AI 提示詞的**高階結構化框架**。
+
+---
+
+## 章節時間戳快速導航
+
+| 內容 | 時間 |
+|------|------|
+| MetaPrompt 概念介紹 | [00:42:24 - 00:45:19](lecture_trimmed.mp4#t=2544) |
+| META-Prompt 輸入教學 | [00:45:19 - 00:46:14](lecture_trimmed.mp4#t=2719) |
+| 穴位插畫生成 | [00:46:14 - 00:49:51](lecture_trimmed.mp4#t=2774) |
+| 生成自己的 MetaPrompt | [00:49:51 - 00:53:00](lecture_trimmed.mp4#t=2991) |

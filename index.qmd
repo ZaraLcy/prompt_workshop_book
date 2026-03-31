@@ -1,6 +1,6 @@
 # 引子與學習地圖 {.unnumbered}
 
-![](images/media/image2.png){fig-align="center" width="90%"}
+![](../images/media/image2.png){fig-align="center" width="90%"}
 
 ## 為什麼要結構化病機思考？
 
@@ -17,7 +17,7 @@
 
 ## 今日的學習大綱
 
-![](images/media/image9.png){fig-align="center" width="90%"}
+![](../images/media/image9.png){fig-align="center" width="90%"}
 
 | 模組 | 主題 | 核心技能 |
 |------|------|----------|
@@ -44,13 +44,56 @@
 
 ## 今日學習地圖（Multiagent 的時代）
 
-![](images/media/image5.png){fig-align="center" width="90%"}
+![](../images/media/image5.png){fig-align="center" width="90%"}
 
 結構化病機思考是人類成為 Multiagent 系統中最高層次協調者（The Orchestrator）的必備技能。
 
 整份講義教授的 YAML 格式控制、Mermaid 邏輯流程圖、以及 META-Prompt 概念，都是建立一套清晰、系統化的方法，用來**精準控制**不同的 AI 代理，確保輸出結果能一致、穩定且準確地符合專業醫療意圖。
 
 > **Human intention in, meaningful context out.**
+
+## 📹 觀看完整課程影片
+
+<details class="video-section">
+  <summary>點擊展開影片播放器</summary>
+  <video controls preload="metadata">
+    <source src="videos/00-intro.mp4" type="video/mp4">
+    <track label="繁體中文" kind="subtitles" srclang="zh-TW" src="subtitles/00-intro.vtt" default>
+    您的瀏覽器不支援影片播放。請下載影片檔案觀看。
+  </video>
+</details>
+
+<div class="qr-section">
+  <p>📱 手機觀看：掃描 QR code</p>
+  <!-- QR code 請使用線上工具生成：https://qrcode.2code.info/ -->
+  <!-- 將生成的 QR code 圖片儲存為 qr-code.png 並放在 images 目錄 -->
+  <img src="images/qr-code.png" alt="掃描此 QR code 在手機上觀看影片" style="max-width: 150px;">
+</div>
+
+## 學習目標 checklist
+
+<div class="learning-checklist">
+  <h4>📋 學習目標</h4>
+  <form>
+    <label>
+      <input type="checkbox" name="obj1">
+      <span>了解結構化病機思考的目的與價值</span>
+    </label>
+    <label>
+      <input type="checkbox" name="obj2">
+      <span>掌握 Infographic、Mermaid、YAML、MetaPrompt 四種核心技能</span>
+    </label>
+    <label>
+      <input type="checkbox" name="obj3">
+      <span>能獨立操作 Gemini 進行 AI 輔助視覺化</span>
+    </label>
+    <label>
+      <input type="checkbox" name="obj4">
+      <span>理解 Multiagent 時代下人類的角色定位</span>
+    </label>
+  </form>
+  <button type="button" class="reset-btn">重設進度</button>
+</div>
 
 ## 版權宣告 {.unnumbered}
 

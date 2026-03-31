@@ -1,24 +1,59 @@
-# Module 3 — 多重文字精準控制的技巧
+# Module 3 — 多重文字精準控制的技巧 [▶ 00:35:48]
 
-![](images/media/image11.png){fig-align="center" width="90%"}
+::: {.video-section}
+<summary>📹 觀看本章影片</summary>
+<video controls preload="metadata">
+  <source src="videos/03-module3.mp4" type="video/mp4">
+  <track label="繁體中文" kind="subtitles" srclang="zh-TW" src="subtitles/03-module3.vtt" default>
+  您的瀏覽器不支援影片播放。
+</video>
+:::
+:::
 
-## 學習重點
+## 學習目標
 
-- 抽取要素之後，存成 YAML 格式調整庫
+<div class="learning-checklist">
+  <h4>📋 Module 3 學習目標</h4>
+  <form>
+    <label>
+      <input type="checkbox" name="m3-obj1">
+      <span>能分析圖片的排版、色彩、形式要素</span>
+    </label>
+    <label>
+      <input type="checkbox" name="m3-obj2">
+      <span>能將視覺要素結構化為 YAML 格式</span>
+    </label>
+    <label>
+      <input type="checkbox" name="m3-obj3">
+      <span>能修改 YAML 參數並重新生成圖像</span>
+    </label>
+    <label>
+      <input type="checkbox" name="m3-obj4">
+      <span>理解 YAML 鍵值對的結構與縮排規則</span>
+    </label>
+  </form>
+  <button type="button" class="reset-btn">重設進度</button>
+</div>
 
-## 學習觀察圖片的要素（意向性）
+![](../images/media/image11.png){fig-align="center" width="90%"}
+
+## 學習觀察圖片的要素（意向性） [▶ 00:36:25]
 
 1. 排版（四格）
 2. 色彩風格
 3. 形式（漫畫、雜誌、圖解...）
 
-## Prompt 練習 1 — 排版分析
+## Prompt 練習 1 — 排版分析 [▶ 00:36:43]
 
 將圖片貼入對話框，開啟「Pro」模式：
 
+<div class="prompt-block">
+```{.copy-btn}
 ```
+```{.prompt-block}
 請分析這個圖片的{排版}，以 yaml 格式輸出
 ```
+</div>
 
 ### 結果示範
 
@@ -69,20 +104,24 @@ Image_Layout_Analysis:
       Grid_Position: "右下角 (Row 2, Column 2)"
       Text_Distribution:
         - Type: "對話框 (教授)"
-          Content: "太棒了！大家都掌握了AI建模的精隨！"
+          Content: "太棒了！大家都掌握了AI建模的精髓！"
         - Type: "對話框 (兔子)"
           Content: "上課好開心！"
 ```
 
-## Prompt 練習 2 — 色彩分析
+## Prompt 練習 2 — 色彩分析 [▶ 00:38:24]
 
-![](images/media/image13.png){fig-align="center" width="80%"}
+![](../images/media/image13.png){fig-align="center" width="80%"}
 
 將圖片貼入對話框，開啟「Pro」模式：
 
+<div class="prompt-block">
+```{.copy-btn}
 ```
+```{.prompt-block}
 請分析這個圖片的{色彩}，以 yaml 格式輸出
 ```
+</div>
 
 ### 結果示範
 
@@ -120,9 +159,9 @@ image_color_profile:
         effect: "在溫馨復古的木質環境中，利用高明度的發光色對比出「AI 科技」與「魔法」的視覺焦點。"
 ```
 
-## 什麼是 YAML 格式？
+## 什麼是 YAML 格式？ [▶ 00:39:27]
 
-YAML（YAML Ain't Markup Language）是一種指令碼語言，被設計為**極度人性化**且**易於機器解析**的資料序列化格式。
+<span class="term" data-tooltip="一種結構化資料格式，用於精準控制 Prompt 輸出的格式與風格">YAML</span>（YAML Ain't Markup Language）是一種指令碼語言，被設計為**極度人性化**且**易於機器解析**的資料序列化格式。
 
 ### 格式設計的原因
 
@@ -136,3 +175,14 @@ YAML（YAML Ain't Markup Language）是一種指令碼語言，被設計為**極
 
 - **作為提示詞調整庫**：將圖片的排版、顏色、角色位置等元素透過 YAML 格式清晰地拆解出來
 - **精準控制 AI 圖像**：能夠**精確地引用**結構化的控制參數，穩定地生成符合預期風格和佈局的圖像，實現「多重文字的精準控制」
+
+---
+
+## 章節時間戳快速導航
+
+| 內容 | 時間 |
+|------|------|
+| YAML 格式介紹 | [00:35:48 - 00:36:25](lecture_trimmed.mp4#t=2148) |
+| 排版分析 Prompt | [00:36:43 - 00:38:24](lecture_trimmed.mp4#t=2203) |
+| 色彩分析 Prompt | [00:38:24 - 00:40:00](lecture_trimmed.mp4#t=2304) |
+| YAML 格式說明 | [00:40:04 - 00:41:00](lecture_trimmed.mp4#t=2404) |

@@ -1,38 +1,84 @@
-# Module 1 — 古今醫案按的圖解步驟
+# Module 1 — 古今醫案按的圖解步驟 [▶ 00:06:00]
 
-## 演練案例：脾胃虛濕熱下注型帶下
+::: {.video-section}
+<summary>📹 觀看本章影片</summary>
+<video controls preload="metadata">
+  <source src="videos/01-module1.mp4" type="video/mp4">
+  <track label="繁體中文" kind="subtitles" srclang="zh-TW" src="subtitles/01-module1.vtt" default>
+  您的瀏覽器不支援影片播放。
+</video>
+:::
+:::
 
-> 一婦人吞酸胸滿。食少便泄。月經不調。服清氣化痰丸。兩膝漸腫。寒熱往來。帶下黃白。面黃體倦。此脾胃虛濕熱下注。
+## 演練案例：脾胃虛濕熱下注型帶下 [▶ 00:08:15]
+
+> 一富人吞酸胸滿。食少便溏。月經不通。服清氣化痰丸。兩膝漸腫。寒熱往來。帶下黃白。面黃體倦。此脾胃虛濕熱下注。
 >
-> 用補中益氣倍參、朮。加茯苓、半夏、炮姜而愈。
+> 用補中益氣倍參、朮。加茯苓、半夏、炮薑而愈。
 >
 > 若因怒。發熱少食。或兩腿赤腫。或指縫常濕。用六君加柴胡、升麻。及補中益氣。
 
 ---
 
-![](images/media/image12.png){fig-align="center" width="90%"}
+![](../images/media/image12.png){fig-align="center" width="90%"}
 
-## 操作順序
+## 學習目標
 
-### 步驟 1：將原文放進 Gemini 進行理解
+<div class="learning-checklist">
+  <h4>📋 Module 1 學習目標</h4>
+  <form>
+    <label>
+      <input type="checkbox" name="m1-obj1">
+      <span>能使用 System Prompt 提升 Gemini 回覆品質</span>
+    </label>
+    <label>
+      <input type="checkbox" name="m1-obj2">
+      <span>能將醫案文字轉化為三欄式 Infographic</span>
+    </label>
+    <label>
+      <input type="checkbox" name="m1-obj3">
+      <span>能調整 Prompt 的意向性以控制輸出格式</span>
+    </label>
+    <label>
+      <input type="checkbox" name="m1-obj4">
+      <span>理解大括弧限定文件範圍的技巧</span>
+    </label>
+  </form>
+  <button type="button" class="reset-btn">重設進度</button>
+</div>
+
+## 操作順序 [▶ 00:10:00]
+
+### 步驟 1：將原文放進 Gemini 進行理解 [▶ 00:10:17]
 
 ::: {.callout-tip title="小技巧 1：大括弧限定文件範圍"}
+<div class="prompt-block">
+```{.copy-btn}
 ```
+```{.prompt-block}
 { 文件資料 }
 ```
+</div>
 
 用大括弧可以降低 LLM 在前後文的理解辨識錯誤，讓模型知道文件的範圍。
 :::
 
 ::: {.callout-tip title="小技巧 2：調整 System Prompt"}
+<div class="prompt-block">
+```{.copy-btn}
 ```
+```{.prompt-block}
 請你每一次對話前，都根據我給你的任務，
 先思考該扮演什麼角色可以最恰當的協助我。
 ```
+</div>
 
 **設定範例：**
 
+<div class="prompt-block">
+```{.copy-btn}
 ```
+```{.prompt-block}
 ## 角色設定
 在回應前，判斷最適合的專業角色（工程師、設計師、
 策略顧問、教師、編輯等），並在開頭標注：
@@ -49,27 +95,31 @@
 [針對這次任務，2-3 個值得注意的觀點或取捨]
 `──────────────────────────────────────────`
 ```
+</div>
 :::
 
-![](images/media/image14.png){fig-align="center" width="90%"}
+![](../images/media/image14.png){fig-align="center" width="90%"}
 
 [設定參考來源：臉書貼文連結](https://www.facebook.com/share/p/1CEjgK4PFb/?mibextid=wwXIfr)
 
-### 步驟 2：給予意向性
+### 步驟 2：給予意向性 [▶ 00:12:04]
 
-> **Human intention in, meaningful context out.**
+> **Human intention in, meaningful context out.** <span class="timestamp">[▶ 00:12:04]</span>
 
 你想要語言模型從什麼樣的層面理解？就必須加入你希望他切入的觀點。
 
 **Prompt 範例：**
 
+<div class="prompt-block">
+```{.copy-btn}
 ```
+```{.prompt-block}
 { 脾胃虛濕熱下注型帶下
 
-一婦人吞酸胸滿。食少便泄。月經不調。服清氣化痰丸。
+一富人吞酸胸滿。食少便溏。月經不通。服清氣化痰丸。
 兩膝漸腫。寒熱往來。帶下黃白。面黃體倦。此脾胃虛濕熱下注。
 
-用補中益氣倍參、朮。加茯苓、半夏、炮姜而愈。
+用補中益氣倍參、朮。加茯苓、半夏、炮薑而愈。
 
 若因怒。發熱少食。或兩腿赤腫。或指縫常濕。
 用六君加柴胡、升麻。及補中益氣。
@@ -78,12 +128,13 @@
 
 請你以臨床實用診斷觀點，拆解三個重點
 ```
+</div>
 
-### 產出範例
+### 產出範例 [▶ 00:14:10]
 
 針對這段中醫古籍醫案，以「臨床實用診斷」的角度拆解，這不僅僅是一個「白帶（帶下）」的案例，更是一場關於**「虛實辨證」與「升降氣機」**的深度博弈。
 
-#### 重點一：誤治的代價——辨清「真熱」與「中焦虛寒」
+#### 重點一：誤治的代價——辨清「真熱」與「中焦虛寒」 <span class="timestamp">[▶ 00:14:22]</span>
 
 醫案開頭提到的「吞酸胸滿、便泄」，初看似乎有痰熱或食積，原醫者用了「清氣化痰丸」。這在臨床上是極大的陷阱。
 
@@ -91,31 +142,35 @@
 - **臨床反饋：** 服藥後「兩膝漸腫、寒熱往來」，代表苦寒藥傷了脾陽，導致濕邪不化，反而下注關節。
 - **關鍵點：** **臨床見到熱象（黃帶、吞酸），必須先確認脾胃的「運化能力」。** 若有便泄、體倦，應「守中」而非「攻邪」。
 
-#### 重點二：核心機制——「升清則下流自止」
+#### 重點二：核心機制——「升清則下流自止」 <span class="timestamp">[▶ 00:14:45]</span>
 
 | 藥物 | 用意 |
 |------|------|
-| 倍參、朮 | 極力恢復中焦的「泵」功能，把氣提起來 |
+| 倍參、朮 | 竭力恢復中焦的「泵」功能，把氣提起來 |
 | 炮薑 | 溫性化散下焦的寒濕，守住中陽，防止參、朮過於滋膩 |
 | 茯苓、半夏 | 化濕和胃降逆 |
 
 **關鍵點：** **治療下焦濕熱，不一定要用利尿苦寒藥；透過「升提中氣」讓水液各歸其位，才是治本。**
 
-#### 重點三：變證診斷——情緒與經絡的「延伸連鎖」
+#### 重點三：變證診斷——情緒與經絡的「延伸連鎖」 <span class="timestamp">[▶ 00:14:58]</span>
 
 | 觸發因素 | 臨床表現 | 診斷思路 | 建議方案 |
 |----------|----------|----------|----------|
 | 情志（怒） | 發熱、兩腿赤腫 | 肝木克脾土，肝經濕熱下滲 | 補中益氣 + 舒肝（柴胡、升麻） |
 | 濕氣偏盛 | 指縫常濕 | 脾主四肢，濕邪透過經絡末梢外溢 | 加強燥濕健脾（六君子湯） |
 
-### 步驟 3：進行 Infographic 化
+### 步驟 3：進行 Infographic 化 [▶ 00:16:30]
 
+<div class="prompt-block">
+```{.copy-btn}
 ```
+```{.prompt-block}
 { 內容 }
 
 請你將這段內容進行 infographic 圖解，專業可愛風格，
 以水豚君教授小白豬助理為輔助
 ```
+</div>
 
 ::: {.callout-note title="Prompt 說明"}
 - **風格**會決定整張圖解的整體樣式，如果要讓整個風格統一，必須在指令時就要建立
@@ -128,6 +183,29 @@
 1. 先以剛剛的對話窗，直接輸入
 2. 開新的對話窗，重新輸入內容，比較差異
 
-### 範例展示
+### 範例展示 [▶ 00:17:30]
 
-![](images/media/image4.png){fig-align="center" width="90%"}
+![](../images/media/image4.png){fig-align="center" width="90%"}
+
+## 關鍵概念
+
+::: {.callout-note title="什麼是 Infographic？"}
+<span class="term" data-tooltip="資訊圖表：一種將複雜資訊視覺化的圖像設計，常用於呈現醫案流程">Infographic</span>（資訊圖表）是一種將文字、數據、圖示等資訊，以視覺化方式呈現的設計手段。在中醫學習中，可用於整理病案流程、辯證思路、藥物關係等。
+:::
+
+::: {.callout-note title="什麼是意向性？"}
+**意向性**指的是 Prompt 中的「目的」描述。AI 模型需要知道你希望它從什麼角度理解內容。你用「臨床實用觀點」和「病因病機觀點」，會得到完全不同的輸出結果。
+:::
+
+---
+
+## 章節時間戳快速導航
+
+| 內容 | 時間 |
+|------|------|
+| 課程介紹與前置設定 | [00:00:00 - 00:06:00](lecture_trimmed.mp4#t=0) |
+| Infographic 概念說明 | [00:06:00 - 00:08:15](lecture_trimmed.mp4#t=360) |
+| 演練案例介紹 | [00:08:15 - 00:10:00](lecture_trimmed.mp4#t=495) |
+| System Prompt 設定 | [00:10:00 - 00:14:00](lecture_trimmed.mp4#t=600) |
+| 臨床診斷觀點 Prompt | [00:14:00 - 00:16:30](lecture_trimmed.mp4#t=840) |
+| Infographic 圖解實作 | [00:16:30 - 00:19:00](lecture_trimmed.mp4#t=990) |
